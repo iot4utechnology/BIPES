@@ -106,6 +106,13 @@ h1 {
   background-position: left calc(-2rem*8) top; /* heigth * index in icons.svg */
 }
 
+.top-menu > .tabnoshow {
+
+  display: none;
+
+}
+
+
 .top-menu > .tabs {
   margin: 0 0.5rem;
   display: flex;
