@@ -27,7 +27,7 @@ var MSG = {
   saveTooltip: "Guardar bloques a archivo.",
   loadTooltip: "Leer bloques desde archivo.",
   notificationTooltip: "Panel de notificaciones.",
-  ErrorGET: "Unable to load requested file.",
+  ErrorGET: "Error al cargar el archivo seleccionado.",
   invalidDevice: "Dispositivo invalido",
   languageTooltip: "Cambiar lenguaje.",
   noToolbox: "The device has no toolbox set.",
@@ -47,10 +47,10 @@ var MSG = {
   notAvailableFlag: "$1 no disponible en el navegador.\r\nAsegurarse que la bander $1 este habilitada.",
 
   //Blocks
-  block_delay: "delay",
-  seconds: "seconds",
-  milliseconds: "milliseconds",
-  microseconds: "microseconds",
+  block_delay: "pausa",
+  seconds: "segundos",
+  milliseconds: "milisegundos",
+  microseconds: "microsegundos",
   to: "to",
   setpin: "set output pin",
   pin: "pin",
