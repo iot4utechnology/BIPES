@@ -21,16 +21,16 @@ var libToInstall = '';
  * Lookup for names of supported languages.  Keys should be in ISO 639 format.
  */
 Code.LANGUAGE_NAME = {
-  'en': 'English',
-  'pt-br': 'Portugues',
-  'es': 'Espanol',
-  'it': 'Italiano',
-  'fr': 'French',
-  'de': 'Deutsch',
-  'nb': 'Norwegian',
-  'zh-hans': 'Chinese (simplified)',
-  'zh-hant': 'Chinese (tradicional)',
-  'he': 'Hebrew'
+  // 'en': 'English',
+  // 'pt-br': 'Portugues',
+  'es': 'Espanol'
+  // 'it': 'Italiano',
+  // 'fr': 'French',
+  // 'de': 'Deutsch',
+  // 'nb': 'Norwegian',
+  // 'zh-hans': 'Chinese (simplified)',
+  // 'zh-hant': 'Chinese (tradicional)',
+  // 'he': 'Hebrew'
 };
 
 /**
@@ -64,7 +64,7 @@ Code.getLang = function() {
   var lang = Code.getStringParamFromUrl('lang', '');
   if (Code.LANGUAGE_NAME[lang] === undefined) {
     // Default to English.
-    lang = 'en';
+    lang = 'es';
   }
   return lang;
 };
