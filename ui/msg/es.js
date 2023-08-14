@@ -1,7 +1,7 @@
 var MSG = {
   title: "BIPES",
   blocks: "Bloques",
-  files: "Files",
+  files: "Archivos",
   shared: "Shared",
   device: "Device",
   linkTooltip: "Guarda conexión a los bloques.",
