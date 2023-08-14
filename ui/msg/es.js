@@ -249,30 +249,30 @@ var MSG = {
 };
 
 //Toolbox categories
-Blockly.Msg['CAT_TIMING'] = "Timing";
-Blockly.Msg['CAT_MACHINE'] = "Machine";
+Blockly.Msg['CAT_TIMING'] = "Tiempo";
+Blockly.Msg['CAT_MACHINE'] = "Microcontrolador";
 Blockly.Msg['CAT_DISPLAYS'] = "Displays";
-Blockly.Msg['CAT_SENSORS'] = "Sensors";
-Blockly.Msg['CAT_OUTPUTS'] = "Outputs / Actuators";
-Blockly.Msg['CAT_COMM'] = "Communication";
-Blockly.Msg['CAT_TEMP_HUMI'] = "Temperature and Humidity";
-Blockly.Msg['CAT_PRESS'] = "Pressure";
-Blockly.Msg['CAT_FILES'] = "Files";
-Blockly.Msg['CAT_NET'] = "Network and Internet";
+Blockly.Msg['CAT_SENSORS'] = "Sensores";
+Blockly.Msg['CAT_OUTPUTS'] = "Salidas / Actuadores";
+Blockly.Msg['CAT_COMM'] = "Comunicacion";
+Blockly.Msg['CAT_TEMP_HUMI'] = "Temperatura y Humedad";
+Blockly.Msg['CAT_PRESS'] = "Presion";
+Blockly.Msg['CAT_FILES'] = "Archivos";
+Blockly.Msg['CAT_NET'] = "Redes e Internet";
 Blockly.Msg['CAT_CONTROL'] = "Control";
-Blockly.Msg['CAT_IMU'] = "Inertial Measurement";
-Blockly.Msg['CAT_AIR'] = "Air Quality";
-Blockly.Msg['CAT_ULTRASOUND'] = "Ultrasound";
-Blockly.Msg['CAT_NEO'] = "NeoPixel LED Strip";
-Blockly.Msg['CAT_CHAR_DISP'] = "Character display";
-Blockly.Msg['CAT_RELAY'] = "Relay";
+Blockly.Msg['CAT_IMU'] = "Acelerometro y Giroscopio";
+Blockly.Msg['CAT_AIR'] = "Calidad del aire";
+Blockly.Msg['CAT_ULTRASOUND'] = "Sensor Ultrasonido";
+Blockly.Msg['CAT_NEO'] = "Tira NeoPixel LED";
+Blockly.Msg['CAT_CHAR_DISP'] = "Display de caracteres";
+Blockly.Msg['CAT_RELAY'] = "Rele";
 Blockly.Msg['CAT_SERVO'] = "RC Servo Motor";
-Blockly.Msg['CAT_STEPPER'] = "Stepper Motor";
-Blockly.Msg['CAT_DC_MOTOR'] = "DC Motor";
+Blockly.Msg['CAT_STEPPER'] = "Motor a pasos";
+Blockly.Msg['CAT_DC_MOTOR'] = "Motor Corriente Continua";
 
 //Toolbox Text
-Blockly.Msg['TXT_ULTRASOUND_DESCRIPTION'] = "HCSR04 ultrasound distance sensor";
-Blockly.Msg['TXT_ULTRASOUND_LIB'] = "Install HCSR04 library";
+Blockly.Msg['TXT_ULTRASOUND_DESCRIPTION'] = "HCSR04 Sensor Ultrasonico";
+Blockly.Msg['TXT_ULTRASOUND_LIB'] = "Instalar libreria HCSR04";
 Blockly.Msg['TXT_SERVO_DESCRIPTION'] = "Hobby RC Servo Motor";
-Blockly.Msg['TXT_STEPPER_DESCRIPTION'] = "Stepper Motor";
-Blockly.Msg['TXT_DC_MOTOR_DESCRIPTION'] = "DC Motor";
+Blockly.Msg['TXT_STEPPER_DESCRIPTION'] = "Motor a pasos";
+Blockly.Msg['TXT_DC_MOTOR_DESCRIPTION'] = "Motor DC";
