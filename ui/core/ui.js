@@ -649,7 +649,7 @@ workspace.prototype.saveXML = function (uid) {
   let data = "data:x-application/xml;charset=utf-8," + encodeURIComponent(xmlText);
 	let element = document.createElement('a');
 	element.setAttribute('href', data),
-	element.setAttribute('download', 'workspace.bipes.xml'),
+	element.setAttribute('download', 'workspace.iot4u.xml'),
 	element.style.display = 'none';
 	document.body.appendChild(element);
 	element.click ();
