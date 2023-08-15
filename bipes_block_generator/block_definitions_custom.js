@@ -7,7 +7,7 @@ Blockly.Blocks['delay'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Delay processing in miliseconds");
- this.setHelpUrl("http://www.bipes.net.br/");
+ this.setHelpUrl("https://www.iot4utechnology.com/");
   }
 };
 
@@ -19,7 +19,7 @@ Blockly.Blocks['reset'] = {
     this.setNextStatement(true, null);
     this.setColour(0);
  this.setTooltip("Reset Device");
- this.setHelpUrl("www.bipes.net.br");
+ 
   }
 };
 
@@ -37,7 +37,7 @@ Blockly.Blocks['gpio_set'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Write to GPIO digital pin");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -50,7 +50,7 @@ Blockly.Blocks['exec_python'] = {
     this.setNextStatement(true, null);
     this.setColour(240);
  this.setTooltip("Execute custom Python Code");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 

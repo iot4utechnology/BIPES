@@ -310,14 +310,14 @@ class Tool {
     let imp = [...code.matchAll(/import (.*)/g)]
 
     if (ext == '') {
-      return desc ? `${desc [1].slice()}${ext}` : 'My BIPES Project';
+      return desc ? `${desc [1].slice()}${ext}` : 'My IOT4U Project';
     } else {
       if (desc == null) {
         desc = [];
         desc [1] = 'code';
       }
       desc [1] = desc [1].toLowerCase()
-      return desc ? `${desc [1].replaceAll(' ', '_').replaceAll('.', '').slice().substring(0,30)}.bipes.${ext}` : imp.length ? `my_${imp.slice(-1)[0][1]}_project.bipes.${ext}` : `my_project.bipes.${ext}`;
+      return desc ? `${desc [1].replaceAll(' ', '_').replaceAll('.', '').slice().substring(0,30)}.iot4u.${ext}` : imp.length ? `my_${imp.slice(-1)[0][1]}_project.iot4u.${ext}` : `my_project.iot4u.${ext}`;
     }
   }
   /**Converts RGB to HEX
@@ -791,7 +791,7 @@ class files {
    * "Open" MicroPython code generated from Blockly in the ``codemirror``editor.
    */
   internalPython () {
-    this.file_save_as.className = 'bipes-py';
+    this.file_save_as.className = 'iot4u-py';
     let code = Code.generateCode();
     Tool.updateSourceCode(new Blob([code], {type: "text/plain"}), Tool.makeAName(code, 'py'));
   }
@@ -799,17 +799,17 @@ class files {
    * "Open" XML code generated from Blockly and BIPES in the ``codemirror``editor.
    */
   internalXML () {
-    this.file_save_as.className = 'bipes-xml';
-    Tool.updateSourceCode(new Blob([Code.generateXML()], {type: "text/plain"}), 'workspace.bipes.xml');
+    this.file_save_as.className = 'iot4u-xml';
+    Tool.updateSourceCode(new Blob([Code.generateXML()], {type: "text/plain"}), 'workspace.iot4u.xml');
   }
   /**
    * Update the displayed name and automatic opened code when switching tabs or projects.
    */
   handleCurrentProject () {
     this.blocks2Code.Python.innerHTML = Tool.makeAName(Code.generateCode(), 'py') + '<span>automatic</span>'
-    if (this.file_save_as.className == 'bipes-py')
+    if (this.file_save_as.className == 'iot4u-py')
       this.internalPython ();
-    else if(Files.file_save_as.className == 'bipes-xml')
+    else if(Files.file_save_as.className == 'iot4u-xml')
       this.internalXML ();
   }
 }

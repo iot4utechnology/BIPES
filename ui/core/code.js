@@ -572,9 +572,9 @@ Code.init = function() {
   //    function() {Code.discard(); Code.renderContent();});
 
 
-  Code.bindClick('forumButton',
-    function () {window.open("https://github.com/BIPES/BIPES/discussions",'_blank')}
-  )
+  // Code.bindClick('forumButton',
+  //   function () {window.open("https://github.com/BIPES/BIPES/discussions",'_blank')}
+  // )
 
 
 
@@ -585,8 +585,8 @@ Code.init = function() {
     BlocklyStorage['LINK_ALERT'] = MSG['linkAlert'];
     BlocklyStorage['HASH_ERROR'] = MSG['hashError'];
     BlocklyStorage['XML_ERROR'] = MSG['xmlError'];
-    Code.bindClick(linkButton,
-        function () {BlocklyStorage.link(Code.workspace);});
+    // Code.bindClick(linkButton,
+    //     function () {BlocklyStorage.link(Code.workspace);});
   } else if (linkButton) {
     linkButton.className = 'disabled';
   }
@@ -854,7 +854,7 @@ Code.initLanguage = function() {
   document.getElementById('notificationButton').title = MSG['notificationTooltip'];
   document.getElementById('languageIcon').title = MSG['languageTooltip'];
   document.getElementById('toolbarButton').title = MSG['toolbarTooltip'];
-  document.getElementById('forumButton').title = MSG['forumTooltip'];
+  // document.getElementById('forumButton').title = MSG['forumTooltip'];
   document.getElementById('accountButton').title = MSG['accountTooltip'];
 };
 

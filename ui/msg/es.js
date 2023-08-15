@@ -4,7 +4,7 @@ var MSG = {
   files: "Archivos",
   shared: "Shared",
   device: "Dispositivo",
-  linkTooltip: "Guarda conexión a los bloques.",
+  linkTooltip: "",
   runTooltip: "Ejecute el programa definido por los bloques en el área de trabajo.",
   badCode: "Error del programa:\n%1",
   timeout: "Se excedio el máximo de iteraciones ejecutadas permitidas.",
