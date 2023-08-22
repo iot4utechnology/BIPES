@@ -429,7 +429,7 @@ Blockly.Python['init_oled'] = function(block) {
 
   var code = 'i2c=I2C(' + i2c + ', scl=Pin(' + scl + '), sda=Pin(' + sda + '))\n';
       code += 'oled_width = 128\n';
-      code += 'oled_height = 64\n';
+      code += 'oled_height = 32\n';
       code += 'oled = ssd1306.SSD1306_I2C(oled_width, oled_height, i2c)\n';
 
   return code;
