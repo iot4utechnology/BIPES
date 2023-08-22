@@ -7,7 +7,7 @@ Blockly.Blocks['delay'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Delay processing in miliseconds");
- this.setHelpUrl("http://www.bipes.net.br/");
+ this.setHelpUrl("https://www.iot4utechnology.com/");
   }
 };
 

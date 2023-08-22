@@ -86,7 +86,7 @@ Blockly.Blocks['clear_oled'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Clear OLED Disiplay");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 

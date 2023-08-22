@@ -171,7 +171,7 @@ Blockly.Blocks['deep_sleep8266'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Deep sleep process in milliseconds");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -185,7 +185,7 @@ Blockly.Blocks['deep_sleep'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Deep sleep process in milliseconds");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 /*LEGACY_BLOCKS_START:Old timings blocks*/
@@ -198,7 +198,7 @@ Blockly.Blocks['delay_old'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Delay processing in seconds");
- this.setHelpUrl("http://www.bipes.net.br/");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -211,7 +211,7 @@ Blockly.Blocks['delay_ms'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Delay processing in milliseconds");
- this.setHelpUrl("http://www.bipes.net.br/");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -224,7 +224,7 @@ Blockly.Blocks['delay_us'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Delay processing in microseconds");
- this.setHelpUrl("http://www.bipes.net.br/");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -235,7 +235,7 @@ Blockly.Blocks['ticks_ms'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Get millisecond counter");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -255,7 +255,7 @@ Blockly.Blocks['ticks_diff'] = {
     //this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Compute time difference");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -383,7 +383,7 @@ Blockly.Blocks['esp32_set_rtc'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Set RTC value");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -425,7 +425,7 @@ Blockly.Blocks['esp8266_set_rtc'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Set RTC value");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -436,7 +436,7 @@ Blockly.Blocks['esp32_get_rtc'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Get RTC value");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -448,7 +448,7 @@ Blockly.Blocks['esp8266_get_rtc'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Get RTC value");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -518,7 +518,7 @@ Blockly.Blocks['stop_timer'] = {
     this.setNextStatement(true, null);
     this.setColour(0);
  this.setTooltip("Stop Timer");
- this.setHelpUrl("www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -531,7 +531,7 @@ Blockly.Blocks['webrepl_setup'] = {
     this.setNextStatement(true, null);
     this.setColour(0);
  this.setTooltip("Configure WebREPL");
- this.setHelpUrl("www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -544,7 +544,7 @@ Blockly.Blocks['webrepl_start'] = {
     this.setNextStatement(true, null);
     this.setColour(0);
  this.setTooltip("Start WebREPL Server");
- this.setHelpUrl("www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -556,7 +556,7 @@ Blockly.Blocks['reset'] = {
     this.setNextStatement(true, null);
     this.setColour(0);
  this.setTooltip("Reset Device");
- this.setHelpUrl("www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -566,7 +566,7 @@ Blockly.Blocks['reset_cause_soft'] = {
         .appendField("Cause: soft reset");
     this.setOutput(true, null);
     this.setColour(230);
- this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -576,7 +576,7 @@ Blockly.Blocks['reset_cause_hard'] = {
         .appendField("Cause: hard reset");
     this.setOutput(true, null);
     this.setColour(230);
- this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -586,7 +586,7 @@ Blockly.Blocks['reset_cause_wdt'] = {
         .appendField("Cause: reset by watchdog timer");
     this.setOutput(true, null);
     this.setColour(230);
- this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -596,7 +596,7 @@ Blockly.Blocks['reset_cause_deep'] = {
         .appendField("Cause: woke up from deepsleep");
     this.setOutput(true, null);
     this.setColour(230);
- this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -623,7 +623,7 @@ Blockly.Blocks['gpio_set'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Write to GPIO digital pin");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -649,7 +649,7 @@ Blockly.Blocks['exec_python'] = {
     this.setNextStatement(true, null);
     this.setColour(240);
  this.setTooltip("Execute custom Python Code");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -662,7 +662,7 @@ Blockly.Blocks['adc'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Read ADC input of specified pin");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -675,7 +675,7 @@ Blockly.Blocks['esp32_adc'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Read ESP32 ADC input of specified pin");
- this.setHelpUrl("http://www.bipes.net.br");
+this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 */
@@ -721,11 +721,11 @@ Blockly.Blocks['adc_pico'] = {
   init: function() {
     this.appendValueInput("pin")
         .setCheck("Number")
-        .appendField("Read RPI Pico ADC Input");
+        .appendField("RPI Leer entrada ADC");
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Read ADC input of specified pin from Raspberry Pi Pico");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -733,11 +733,11 @@ Blockly.Blocks['adc_pico'] = {
 Blockly.Blocks['set_freq'] = {
   init: function() {
    this.appendDummyInput()
-        .appendField("Set CPU Clock Frequency");
+        .appendField("Configurar frecuencia del CPU");
 
     this.appendValueInput("freq")
         .setCheck("Number")
-        .appendField("Frequency (Hz)");
+        .appendField("Frecuencia (Hz)");
     //this.setOutput(true, null);
 
 
@@ -746,7 +746,7 @@ Blockly.Blocks['set_freq'] = {
 
     this.setColour(230);
  this.setTooltip("Set ESP8266 CPU Clock Frequency");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -754,12 +754,12 @@ Blockly.Blocks['set_freq'] = {
 Blockly.Blocks['get_freq'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Get CPU Clock Frequency");
+        .appendField("Leer frecuencia del CPU");
 
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Get current CPU Clock Frequency");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -779,7 +779,7 @@ Blockly.Blocks['gpio_get'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Read digital pin");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -801,7 +801,7 @@ Blockly.Blocks['gpio_interrupt'] = {
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
  this.setTooltip("Trigger interrupt when pin state changes");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -817,7 +817,7 @@ Blockly.Blocks['gpio_interrupt_off'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Disable interrupt on a given pin");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -870,7 +870,7 @@ Blockly.Blocks['pinout'] = {
     this.getField('DEVICE').setVisible(false);
     this.setOutput(true, null);
     this.setColour(230);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   },
 };
 
@@ -974,7 +974,7 @@ Blockly.Blocks['mpu6050_read_acc_x'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Acceleration on X axis");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -987,7 +987,7 @@ Blockly.Blocks['mpu6050_read_acc_y'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Acceleration on Y axis");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -999,7 +999,7 @@ Blockly.Blocks['mpu6050_read_acc_z'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Acceleration on Z axis");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1011,7 +1011,7 @@ Blockly.Blocks['mpu6050_read_gyro_x'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Gyro on X axis");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1024,7 +1024,7 @@ Blockly.Blocks['mpu6050_read_gyro_y'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Gyro on Y axis");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1036,7 +1036,7 @@ Blockly.Blocks['mpu6050_read_gyro_z'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Gyro on Z axis");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1086,7 +1086,7 @@ Blockly.Blocks['fill_oled'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Fill OLED Disiplay");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1098,7 +1098,7 @@ Blockly.Blocks['clear_oled'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Clear OLED Disiplay");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1110,7 +1110,7 @@ Blockly.Blocks['show_oled'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Update OLED Disiplay");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1137,7 +1137,7 @@ Blockly.Blocks['write_oled'] = {
     this.setColour(230);
 
  this.setTooltip("Write text to OLED Display");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1168,7 +1168,7 @@ Blockly.Blocks['line_oled'] = {
     this.setColour(230);
 
  this.setTooltip("Draw a line on OLED Display");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1199,7 +1199,7 @@ Blockly.Blocks['rect_oled'] = {
     this.setColour(230);
 
  this.setTooltip("Draw a rectangle on OLED Display");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 Blockly.Blocks['fill_rect_oled'] = {
@@ -1229,7 +1229,7 @@ Blockly.Blocks['fill_rect_oled'] = {
     this.setColour(230);
 
  this.setTooltip("Draw a line on OLED Display");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1252,7 +1252,7 @@ Blockly.Blocks['scroll_oled'] = {
     this.setColour(230);
 
  this.setTooltip("Scroll the OLED Display");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1371,7 +1371,7 @@ Blockly.Blocks['net_get_request'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Make HTTP GET Request");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1387,7 +1387,7 @@ Blockly.Blocks['net_post_request'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Make HTTP POST Request");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1403,7 +1403,7 @@ Blockly.Blocks['net_post_request_json'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Make HTTP POST Request with JSON data");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1415,7 +1415,7 @@ Blockly.Blocks['net_ifconfig'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Wifi current IP");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1447,7 +1447,7 @@ Blockly.Blocks['net_ap_mode'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Configure Access Point Mode");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1467,7 +1467,7 @@ Blockly.Blocks['wifi_client_connect'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Connect to a Wifi network");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1478,7 +1478,7 @@ Blockly.Blocks['wifi_client_scan_networks'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Scan wifi networks");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1511,7 +1511,7 @@ Blockly.Blocks['tm1640_init'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Start TM1640 LED Matrix");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1529,7 +1529,7 @@ Blockly.Blocks['tm1640_write'] = {
 
     this.setColour(230);
  this.setTooltip("Write to TM1640 LED Matrix");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1550,7 +1550,7 @@ Blockly.Blocks['tm1640_num'] = {
 
     this.setColour(230);
  this.setTooltip("Write number on TM1640 LED Matrix");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1571,7 +1571,7 @@ Blockly.Blocks['tm1640_brig'] = {
 
     this.setColour(230);
  this.setTooltip("Set brightness of TM1640 LED Matrix");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1658,7 +1658,7 @@ Blockly.Blocks['tm1640_custom'] = {
         this.setNextStatement(true, null);
         this.setColour(230);
  this.setTooltip("Write to LED Matrix");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
 
     }
 };
@@ -1678,7 +1678,7 @@ Blockly.Blocks['file_open_write'] = {
 
     this.setColour(230);
  this.setTooltip("Open text file for writing on the filesystem");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1697,7 +1697,7 @@ Blockly.Blocks['file_open_read'] = {
 
     this.setColour(230);
  this.setTooltip("Open text file for reading on the filesystem");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1710,7 +1710,7 @@ Blockly.Blocks['file_close'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Close a file");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1729,7 +1729,7 @@ Blockly.Blocks['file_close_old'] = {
 
     this.setColour(230);
  this.setTooltip("Safely close file");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1746,7 +1746,7 @@ Blockly.Blocks['file_write'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Write to a file");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1764,7 +1764,7 @@ Blockly.Blocks['file_write_line'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Write line to a file");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1781,7 +1781,7 @@ Blockly.Blocks['file_write_byte'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Write byte to a file");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1808,7 +1808,7 @@ Blockly.Blocks['file_write_old'] = {
 
     this.setColour(230);
  this.setTooltip("Write string to file");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1832,7 +1832,7 @@ Blockly.Blocks['file_open'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Open File");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1844,7 +1844,7 @@ Blockly.Blocks['file_read'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Read data from a file");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1862,7 +1862,7 @@ Blockly.Blocks['file_read_old'] = {
 
     this.setColour(230);
  this.setTooltip("Read string from a file");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1876,7 +1876,7 @@ Blockly.Blocks['files_list'] = {
 
     this.setColour(230);
  this.setTooltip("List files from current directory ");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1915,7 +1915,7 @@ Blockly.Blocks['hcsr_init'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip(MSG["hcsr_init"]);
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1927,7 +1927,7 @@ Blockly.Blocks['hcsr_read'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip(MSG["measure_distance"]);
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1956,7 +1956,7 @@ Blockly.Blocks['dht_init'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip("Start DHT11 ou DHT22 sensor");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1970,7 +1970,7 @@ Blockly.Blocks['dht_measure'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip("Measure DHT11/22 Sensor");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1982,7 +1982,7 @@ Blockly.Blocks['dht_read_temp'] = {
     this.setOutput(true, null);
     this.setColour(230);
     this.setTooltip("Read DHT11/22 Temperature");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -1994,7 +1994,7 @@ Blockly.Blocks['dht_read_humidity'] = {
     this.setOutput(true, null);
     this.setColour(230);
     this.setTooltip("Read DHT11/22 Humidity");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2024,7 +2024,7 @@ Blockly.Blocks['mqtt_init'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip(MSG["mqtt_start"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2044,7 +2044,7 @@ Blockly.Blocks['mqtt_add_to_buffer'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip(MSG["mqtt_add_to_buffer"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2069,7 +2069,7 @@ Blockly.Blocks['mqtt_publish_buffer'] = {
     this.setColour(230);
     this.setInputsInline(false);
     this.setTooltip(MSG["mqtt_publish_buffer"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2097,7 +2097,7 @@ Blockly.Blocks['mqtt_publish_payload'] = {
     this.setColour(230);
     this.setInputsInline(false);
     this.setTooltip(MSG["mqtt_publish_payload"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2114,7 +2114,7 @@ Blockly.Blocks['mqtt_subscribe'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip(MSG["mqtt_subscribe"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2140,7 +2140,7 @@ Blockly.Blocks['mqtt_set_callback'] = {
     this.setColour(230);
     this.setInputsInline(false);
     this.setTooltip(MSG["mqtt_callback_tooltip"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2153,7 +2153,7 @@ Blockly.Blocks['mqtt_check_msg'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip(MSG["mqtt_check_msg_tooltip"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2166,7 +2166,7 @@ Blockly.Blocks['mqtt_wait_msg'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip(MSG["mqtt_wait_msg_tooltip"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2179,7 +2179,7 @@ Blockly.Blocks['mqtt_disconnect'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip(MSG["mqtt_disconnect_tooltip"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2200,7 +2200,7 @@ Blockly.Blocks['easymqtt_init'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip("Start EasyMQTT Client");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2221,7 +2221,7 @@ Blockly.Blocks['easymqtt_publish_data'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip("Publish Data to EasyMQTT Server");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2248,7 +2248,7 @@ Blockly.Blocks['easymqtt_subscribe'] = {
     this.setColour(230);
     this.setInputsInline(false);
     this.setTooltip("Subscribe to a topic and define what to do when data is received from EasyMQTT Server");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2267,7 +2267,7 @@ Blockly.Blocks['easymqtt_receive_data'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip("Receive Data from EasyMQTT Server");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2280,7 +2280,7 @@ Blockly.Blocks['easymqtt_disconnect'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip("Disconnect the EasyMQTT Client from Server.");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2307,7 +2307,7 @@ Blockly.Blocks['relay_switch'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
     this.setTooltip("Turn On Relay on GPIO digital pin");
-    this.setHelpUrl("bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2319,7 +2319,7 @@ Blockly.Blocks['text_to_str'] = {
     this.setColour(160);
     this.setOutput(true, null);
     this.setTooltip("Convert anything to String.");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2331,7 +2331,7 @@ Blockly.Blocks['decode_bytes_to_text'] = {
     this.setColour(160);
     this.setOutput(true, null);
     this.setTooltip("Decode bytes to a String.");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2343,7 +2343,7 @@ Blockly.Blocks['var_to_int'] = {
     this.setColour(230);
     this.setOutput(true, null);
     this.setTooltip("Convert anything to Int.");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2355,7 +2355,7 @@ Blockly.Blocks['var_to_float'] = {
     this.setColour(230);
     this.setOutput(true, null);
     this.setTooltip("Convert anything to float.");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -2377,7 +2377,7 @@ Blockly.Blocks['project_metadata'] = {
         .appendField(new Blockly.FieldLabel(MSG["project_info_desc"]), "project_description");
     this.setColour(230);
     this.setTooltip("Information about the project");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -9380,7 +9380,7 @@ Blockly.Blocks['run_cmd'] = {
     this.setNextStatement(true, null);
     this.setColour(240);
  this.setTooltip("Run custo Linux command");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -9394,7 +9394,7 @@ Blockly.Blocks['play_mp3'] = {
     this.setNextStatement(true, null);
     this.setColour(240);
  this.setTooltip("Play MP3 file");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -9410,7 +9410,7 @@ Blockly.Blocks['randomforestclassifier'] = {
     this.setOutput(true, null);
     this.setColour(60);
  this.setTooltip("randomforestclassifier");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -9434,7 +9434,7 @@ Blockly.Blocks['fit'] = {
     this.setNextStatement(true, null);
     this.setColour(60);
  this.setTooltip("fit");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -9453,7 +9453,7 @@ Blockly.Blocks['predict'] = {
     this.setOutput(true, null);
     this.setColour(60);
  this.setTooltip("predict");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -10792,7 +10792,7 @@ Blockly.Blocks['python_try_catch'] = {
     this.setColour(230);
     this.setInputsInline(false);
     this.setTooltip("Python Try/Catch");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -10940,7 +10940,7 @@ Blockly.Blocks['neopixel_control_CPY'] = {
 
     this.setColour(230);
  this.setTooltip(MSG["np_controll_tooltip"]);
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 }
 
@@ -10962,7 +10962,7 @@ Blockly.Blocks['neopixel_control'] = {
 
     this.setColour(230);
  this.setTooltip(MSG["np_controll_tooltip"]);
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -10977,7 +10977,7 @@ Blockly.Blocks['neopixel_write'] = {
 
     this.setColour(230);
     this.setTooltip(MSG["np_write_tooltip"]);
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11004,7 +11004,7 @@ Blockly.Blocks['neopixel_color_numbers'] = {
     this.setOutput(true, null);
     this.setColour(230);
     this.setTooltip(MSG["np_color_tooltip_rgb"]);
-    this.setHelpUrl("https://bipes.net.br/wp/?page_id=177");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   },
   styleBlock: function(colours) {
     colours = colours.map(x => parseInt(x))
@@ -11026,7 +11026,7 @@ Blockly.Blocks['neopixel_color_colors'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip(MSG["np_color_tooltip_picker"]);
- this.setHelpUrl("https://bipes.net.br/wp/?page_id=177");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11049,7 +11049,7 @@ Blockly.Blocks['HSL_to_RGB'] = {
     this.setOutput(true, null);
     this.setColour(230);
     this.setTooltip(MSG["np_color_tooltip_HSL"]);
-    this.setHelpUrl("https://bipes.net.br/wp/?page_id=177");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   },
 
   styleBlock: function(colours) {
@@ -11087,7 +11087,7 @@ Blockly.Blocks['bipes_plot'] = {
     this.setColour(230);
 
  this.setTooltip("BIPES Plot");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 Blockly.Blocks['localstorage_store'] = {
@@ -11188,7 +11188,7 @@ Blockly.Blocks['bluetooth_repl_start'] = {
     this.setNextStatement(true, null);
     this.setColour(0);
  this.setTooltip("Start REPL over Web Bluetooth");
- this.setHelpUrl("www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11207,7 +11207,7 @@ Blockly.Blocks['bluetooth_repl_setup'] = {
     this.setNextStatement(true, null);
     this.setColour(0);
  this.setTooltip("Setup Web Bluetooth REPL");
- this.setHelpUrl("www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11283,7 +11283,7 @@ Blockly.Blocks['st7789_bl_power'] = {
     this.setColour(230);
 
  this.setTooltip("Set ST7789 backlight intensity");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11305,7 +11305,7 @@ Blockly.Blocks['st7789_color_numbers'] = {
     this.setOutput(true, null);
     this.setColour(230);
     this.setTooltip("ST7789 Color");
-    this.setHelpUrl("https://bipes.net.br/wp/?page_id=177");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   },
   styleBlock: function(colours) {
     colours = colours.map(x => parseInt(x))
@@ -11327,7 +11327,7 @@ Blockly.Blocks['st7789_color_colors'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("ST7789 Color");
- this.setHelpUrl("https://bipes.net.br/wp/?page_id=177");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11355,7 +11355,7 @@ Blockly.Blocks['st7789_fill'] = {
     this.setColour(230);
 
  this.setTooltip("Plot pixel to ST7789 display");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11384,7 +11384,7 @@ Blockly.Blocks['st7789_pixel'] = {
     this.setColour(230);
 
  this.setTooltip("Plot pixel to ST7789 display");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11421,7 +11421,7 @@ Blockly.Blocks['st7789_line'] = {
     this.setColour(230);
 
  this.setTooltip("Draw line on ST7789 display");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11433,7 +11433,7 @@ Blockly.Blocks['esp32_cam_init'] = {
     this.setNextStatement(true, null);
     this.setColour(0);
  this.setTooltip("Init ESP32-CAM camera");
- this.setHelpUrl("www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11444,7 +11444,7 @@ Blockly.Blocks['esp32_cam_capture'] = {
     this.setOutput(true, null);
     this.setColour(0);
  this.setTooltip("Take photo with ESP32-CAM camera");
- this.setHelpUrl("www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11460,7 +11460,7 @@ Blockly.Blocks['esp32_cam_red_led'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Control ESP32-CAM Red LED");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11477,7 +11477,7 @@ Blockly.Blocks['esp32_cam_white_led'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Control ESP32-CAM White LED (flashlight)");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11506,7 +11506,7 @@ Blockly.Blocks['tone'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip(MSG["sound_tone_tooltip"]);
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
  }
 };
 
@@ -11533,7 +11533,7 @@ Blockly.Blocks['note'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip(MSG["sound_note_tooltip"]);
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
  }
 };
 
@@ -11556,7 +11556,7 @@ Blockly.Blocks['rtttl_play'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Control ESP32-CAM White LED (flashlight)");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11592,7 +11592,7 @@ Blockly.Blocks['snek_uptime'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Get monotonic time counter");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11607,7 +11607,7 @@ Blockly.Blocks['snek_delay'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Delay processing in seconds");
- this.setHelpUrl("http://www.bipes.net.br/");
+ this.setHelpUrl("https://www.iot4utechnology.com/");
   }
 };
 
@@ -11628,7 +11628,7 @@ Blockly.Blocks['snek_gpio_set'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Write to GPIO digital pin");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11640,7 +11640,7 @@ Blockly.Blocks['snek_gpio_get'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Read digital pin");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11654,7 +11654,7 @@ Blockly.Blocks['snek_adc'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Read ADC input of specified pin");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11672,7 +11672,7 @@ Blockly.Blocks['snek_setpower'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("Snek Set Power");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
  }
 };
 
@@ -11705,7 +11705,7 @@ Blockly.Blocks['snek_servo_move'] = {
     this.setNextStatement(true, null);
 
     this.setTooltip("Move RC servo motor to degrees");
-    this.setHelpUrl("http://www.bipes.net.br");
+    this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11876,7 +11876,7 @@ Blockly.Blocks['http_get_status'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Status code of the HTTP GET request");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11888,7 +11888,7 @@ Blockly.Blocks['http_get_content'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Content of HTTP GET request");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11922,7 +11922,7 @@ Blockly.Blocks['bmp180_temperature'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Temperature from the BMP180 sensor");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11933,7 +11933,7 @@ Blockly.Blocks['bmp180_pressure'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Pressure from the BMP180 sensor");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11944,7 +11944,7 @@ Blockly.Blocks['bmp180_altitude'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Altitude from the BMP180 sensor");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11978,7 +11978,7 @@ Blockly.Blocks['bmp280_temperature'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Temperature from the BMP280 sensor");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -11989,7 +11989,7 @@ Blockly.Blocks['bmp280_pressure'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Pressure from the BMP280 sensor");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12000,7 +12000,7 @@ Blockly.Blocks['bmp280_altitude'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Altitude from the BMP280 sensor");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12067,7 +12067,7 @@ Blockly.Blocks['mcp23017_setup'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("MCP23017 directin setup");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12087,7 +12087,7 @@ Blockly.Blocks['mcp23017_output'] = {
     this.setNextStatement(true, null);
     this.setColour(230);
  this.setTooltip("MCP23017 Write to GPIO digital pin");
- this.setHelpUrl("bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12105,7 +12105,7 @@ Blockly.Blocks['mcp23017_input'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("MCP23017 Read digital pin");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12139,7 +12139,7 @@ Blockly.Blocks['ccs811_data_ready'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Air Quality Sensor CCS811 Data Ready");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12150,7 +12150,7 @@ Blockly.Blocks['ccs811_eCO2'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Air Quality Sensor CCS811 CO2 reading");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12161,7 +12161,7 @@ Blockly.Blocks['ccs811_tVOC'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Air Quality Sensor CCS811 VOC reading");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12195,7 +12195,7 @@ Blockly.Blocks['sht20_temperature'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Temperature from the SHT20 sensor");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
@@ -12206,7 +12206,7 @@ Blockly.Blocks['sht20_humidity'] = {
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Humidity from the SHT20 sensor");
- this.setHelpUrl("http://www.bipes.net.br");
+ this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
 
