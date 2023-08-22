@@ -1,8 +1,8 @@
 {
     "dir": "ltr",
     "lang": "en",
-    "name": "BLOQUES",
-    "short_name": "BLOQUES",
+    "name": "CODE",
+    "short_name": "CODE",
     "scope": "/ui/",
     "display": "standalone",
     "start_url": "https://code.iot4utechnology.com/ui/",
