@@ -725,7 +725,7 @@ workspace.prototype.writeWorkspace = function (xml, prettyText) {
     databoard = window.frames[3].modules.Workspaces.compress();
   } catch (e) {}
 
-  xml = xml.replace(/(xmlns=")(?:.+?)(")/g, '$1https://bipes.net.br$2')
+  xml = xml.replace(/(xmlns=")(?:.+?)(")/g, '$1https://www.iot4utechnology.com$2')
   if (prettyText)
     xml = xml.replace(/(<xml xmlns=".+?">\n)/, `$1  <workspace>\n    <field name="DEVICE">${device}</field>\n    <field name="TIMESTAMP">${timestamp}</field>\n    <freeboard><![CDATA[${freeboard}]]></freeboard>\n    <databoard><![CDATA[${databoard}]]></databoard> \n  </workspace>\n`);
   else
