@@ -1338,7 +1338,7 @@
       </block>
     </category>
 
-  <category name="RC Servo">
+  <!-- <category name="RC Servo">
       <label text="Hobby RC Servo Motor"></label>
     <block type="init_servo">
         <value name="pin">
@@ -1355,7 +1355,7 @@
         </shadow>
       </value>
     </block>
-  </category>
+  </category> -->
 
 
   </category>
