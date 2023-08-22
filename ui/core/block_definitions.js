@@ -1310,54 +1310,54 @@ Blockly.Blocks['tank_turn'] = {
   }
 };
 
-Blockly.Blocks['init_servo'] = {
-  init: function() {
+// Blockly.Blocks['init_servo'] = {
+//   init: function() {
 
- this.appendDummyInput()
-      .appendField(new Blockly.FieldImage(
-        "media/servo.png",
-        55,
-        55,
-        "*"))
-      .appendField(MSG["servo_init"])
-	  ;
-
-
-    this.appendValueInput("pin")
-        .setCheck("Number")
-        .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField(MSG["pin"]);
-    this.setColour(230);
-
-    this.setPreviousStatement(true, null);
-    this.setNextStatement(true, null);
-
- this.setTooltip(MSG["servo_init_tooltip"]);
- this.setHelpUrl("http://www.bipes.net.ebr");
-  }
-};
+//  this.appendDummyInput()
+//       .appendField(new Blockly.FieldImage(
+//         "media/servo.png",
+//         55,
+//         55,
+//         "*"))
+//       .appendField(MSG["servo_init"])
+// 	  ;
 
 
-Blockly.Blocks['move_servo'] = {
-  init: function() {
+//     this.appendValueInput("pin")
+//         .setCheck("Number")
+//         .setAlign(Blockly.ALIGN_RIGHT)
+//         .appendField(MSG["pin"]);
+//     this.setColour(230);
+
+//     this.setPreviousStatement(true, null);
+//     this.setNextStatement(true, null);
+
+//  this.setTooltip(MSG["servo_init_tooltip"]);
+//  this.setHelpUrl("http://www.bipes.net.ebr");
+//   }
+// };
 
 
- this.appendDummyInput().appendField(MSG["servo_move"]);
+// Blockly.Blocks['move_servo'] = {
+//   init: function() {
 
 
-    this.appendValueInput("angle")
-        .setCheck("Number")
-        .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField(MSG["angle"]);
-    this.setColour(230);
+//  this.appendDummyInput().appendField(MSG["servo_move"]);
 
-    this.setPreviousStatement(true, null);
-    this.setNextStatement(true, null);
 
- this.setTooltip("Move RC servo motor to degrees");
- this.setHelpUrl("http://www.bipes.net.ebr");
-  }
-};
+//     this.appendValueInput("angle")
+//         .setCheck("Number")
+//         .setAlign(Blockly.ALIGN_RIGHT)
+//         .appendField(MSG["angle"]);
+//     this.setColour(230);
+
+//     this.setPreviousStatement(true, null);
+//     this.setNextStatement(true, null);
+
+//  this.setTooltip("Move RC servo motor to degrees");
+//  this.setHelpUrl("http://www.bipes.net.ebr");
+//   }
+// };
 
 Blockly.Blocks['net_get_request'] = {
   init: function() {

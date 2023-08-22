@@ -942,7 +942,7 @@
       </block>
     </category>
 
-  <category name="%{BKY_CAT_SERVO}">
+  <!-- <category name="%{BKY_CAT_SERVO}">
       <label text="%{BKY_TXT_SERVO_DESCRIPTION}"></label>
     <block type="init_servo">
         <value name="pin">
@@ -959,7 +959,7 @@
         </shadow>
       </value>
     </block>
-  </category>
+  </category> -->
 
 
   <category name="%{BKY_CAT_STEPPER}">
