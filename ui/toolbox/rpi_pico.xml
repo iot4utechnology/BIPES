@@ -383,9 +383,9 @@
         <label text="Sonidos y RTTTL:"></label>
         <label text="Ring Tone Text Transfer Language (RTTTL) "></label>
         <label text="Libreria: "></label>
-        <button text="Instalar libreria rtttl" callbackKey="installPyLib"></button>
-        <button text="Instalar libreria de canciones" callbackKey="installPyLib"></button>
-        <button text="Documentation and how to connect: sound" callbackKey="loadDoc"></button>
+        <button text="Instalar rtttl libreria" callbackKey="installPyLib"></button>
+        <button text="Instalar songs libreria" callbackKey="installPyLib"></button>
+       
 
     <block type="tone"> 
       <value name="pin">
@@ -438,8 +438,7 @@
       </value>
     </block>
 
-    <label text="Songs:"></label>
-    <button text="Install songs library" callbackKey="installPyLib"></button>
+
 
     <block type="text"> <field name="TEXT">Super Mario - Main Theme</field> </block>
     <block type="text"> <field name="TEXT">Super Mario - Title Music</field> </block>
