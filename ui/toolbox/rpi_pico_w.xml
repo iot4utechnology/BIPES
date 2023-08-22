@@ -842,7 +842,7 @@
 
 
 
-  <category name="%{BKY_CAT_CHAR_DISP}">
+  <!-- <category name="%{BKY_CAT_CHAR_DISP}">
       <label text="PCF8574 Display controller"></label>
 
       <label text="Library: https://github.com/dhylands/python_lcd"></label>
@@ -1002,7 +1002,7 @@
                 </block>
 
 
-  </category>
+  </category> -->
 
 
 
@@ -1010,7 +1010,7 @@
   </category>
 
   <category name="%{BKY_CAT_SENSORS}">
-    <category name="%{BKY_CAT_TEMP_HUMI}">
+    <!-- <category name="%{BKY_CAT_TEMP_HUMI}">
       <label text="DHT11/11 Temperature and Humidity Sensor"></label>
       <block type="dht_init">
         <field name="BLOCK_DHT_INIT">Start DHT11/22 sensor</field>
@@ -1029,7 +1029,7 @@
       <block type="dht_read_humidity">
         <field name="MSG_READ_DHT_HUMI">Read DHT11/22 Humidity</field>
       </block>
-    </category>
+    </category> -->
 
 
   <category name="%{BKY_CAT_ULTRASOUND}">
@@ -1060,7 +1060,7 @@
 
   </category>
 
-  <category name="GPS">
+  <!-- <category name="GPS">
       <label text="Global Positioning System sensor"></label>
    <label text="Library: https://github.com/"></label>
         <button text="Install GPS library" callbackKey="installPyLib"></button>
@@ -1209,7 +1209,7 @@
       <block type="rfid_rc522_read_card"></block>
       <block type="rfid_rc522_write_card"></block>
 
-  </category>
+  </category> -->
 
   </category>
 
@@ -1286,7 +1286,7 @@
 
       </category>
 
-      <category name="GSM Modem">
+      <!-- <category name="GSM Modem">
 
       <block type="gsm_modem_init">
 </block>
@@ -1301,7 +1301,7 @@
 
 
 
-      </category>
+      </category> -->
       <category name="I2C">
       <label text="I2c"></label>
 <block type="machine.I2C_I2C.init">
