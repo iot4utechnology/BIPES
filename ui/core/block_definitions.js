@@ -1046,7 +1046,7 @@ Blockly.Blocks['init_oled'] = {
   init: function() {
     this.setColour(135);
     this.appendDummyInput()
-        .appendField("Init I2C SSD1306 OLED Display");
+        .appendField("Inicializa I2C SSD1306 Display OLED");
 
  this.appendDummyInput()
       .appendField(new Blockly.FieldImage(
@@ -1081,7 +1081,7 @@ Blockly.Blocks['fill_oled'] = {
   init: function() {
     this.appendValueInput("value")
         .setCheck("Number")
-        .appendField("Fill OLED Display with ");
+        .appendField("Llenar Display OLED con:");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(230);
@@ -1093,7 +1093,7 @@ Blockly.Blocks['fill_oled'] = {
 Blockly.Blocks['clear_oled'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Clear OLED Display");
+        .appendField("Limpiar display");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(230);
@@ -1117,20 +1117,20 @@ Blockly.Blocks['show_oled'] = {
 Blockly.Blocks['write_oled'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Write text on display");
+        .appendField("Escribe el texto");
 
     this.appendValueInput("x")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("X position");
+        .appendField("Posicion en X");
     this.appendValueInput("y")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Y position");
+        .appendField("Posicion en Y");
     this.appendValueInput("text")
         .setCheck("String")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Text");
+        .appendField("Texto");
 
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -1144,24 +1144,24 @@ Blockly.Blocks['write_oled'] = {
 Blockly.Blocks['line_oled'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Draw a line on display");
+        .appendField("Dibuja una linea en el display");
 
         this.appendValueInput("x1")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Initial X position");
+        .appendField("Posicion inicial en X");
     this.appendValueInput("y1")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Initial Y position");
+        .appendField("Posicion inicial en Y");
         this.appendValueInput("x2")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Final X position");
+        .appendField("Posicion final en X");
     this.appendValueInput("y2")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Final Y position");
+        .appendField("Posicion final en Y");
 
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -1175,16 +1175,16 @@ Blockly.Blocks['line_oled'] = {
 Blockly.Blocks['rect_oled'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Draw a rectangle outline on display");
+        .appendField("Dibuja el contorno de un rectangulo en el display");
 
         this.appendValueInput("x1")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Initial X position");
+        .appendField("Posicion inicial en X");
     this.appendValueInput("y1")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Initial Y position");
+        .appendField("Posicion inicial en Y");
         this.appendValueInput("x2")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
@@ -1205,16 +1205,16 @@ Blockly.Blocks['rect_oled'] = {
 Blockly.Blocks['fill_rect_oled'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("Draw a solid rectangle outline on display");
+        .appendField("Dibuja un rectangulo solido en el display");
 
         this.appendValueInput("x1")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Initial X position");
+        .appendField("Posicion inicial en X");
     this.appendValueInput("y1")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Initial Y position");
+        .appendField("Posicion inicial en Y");
         this.appendValueInput("x2")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
@@ -1236,7 +1236,7 @@ Blockly.Blocks['fill_rect_oled'] = {
 Blockly.Blocks['scroll_oled'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("scroll the display");
+        .appendField("Mueve el display");
 
         this.appendValueInput("x")
         .setCheck("Number")

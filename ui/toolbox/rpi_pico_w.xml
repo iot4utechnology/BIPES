@@ -733,7 +733,7 @@
     </block>     
 
     <block type="clear_oled"></block>
-    <block type="fill_oled"></block>
+    <!-- <block type="fill_oled"></block> -->
     </category>
 
     <category name="%{BKY_CAT_NEO}">
