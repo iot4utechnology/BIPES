@@ -286,7 +286,7 @@ class Tool {
   */
   static getText (pName) {
     var request = new XMLHttpRequest();
-        request.open('GET', '/beta2/ui/pylibs/' + pName, true);
+        request.open('GET', '/ui/pylibs/' + pName, true);
         request.send(null);
         request.onreadystatechange = function () {
         if (request.readyState === 4 && request.status === 200) {
