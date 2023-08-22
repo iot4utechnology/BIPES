@@ -845,9 +845,8 @@
 
 
   <category name="%{BKY_CAT_ULTRASOUND}">
-      <label text="%{BKY_TXT_ULTRASOUND_DESCRIPTION}"></label>
-      <label text="Library: https://github.com/rsc1975/micropython-hcsr04"></label>
-        <button text="%{BKY_TXT_ULTRASOUND_LIB}" callbackKey="installPyLib"></button>
+     <label text="Sensor ultrasonico"></label>
+      <button text="Instalar hcsr04 libreria  " callbackKey="installPyLib"></button>
 
 
       <block type="hcsr_init">
