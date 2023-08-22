@@ -1337,7 +1337,7 @@
   </category>
 
 
-  <category name="%{BKY_CAT_FILES}">
+  <!-- <category name="%{BKY_CAT_FILES}">
       <label text="Read and write files"></label>
 <block type="file_open_write">
 
@@ -1459,7 +1459,7 @@
 <block type="uos_ioctl">
 </block>
 
-  </category>
+  </category> -->
 
 
 
