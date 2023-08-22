@@ -206,7 +206,7 @@ Blockly.Blocks['delay_ms'] = {
   init: function() {
     this.appendValueInput("time")
         .setCheck("Number")
-        .appendField("delay milliseconds");
+        .appendField("pausa milisegundos");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(230);
@@ -219,7 +219,7 @@ Blockly.Blocks['delay_us'] = {
   init: function() {
     this.appendValueInput("time")
         .setCheck("Number")
-        .appendField("delay microseconds");
+        .appendField("pausa microsegundos");
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(230);
@@ -231,7 +231,7 @@ Blockly.Blocks['delay_us'] = {
 Blockly.Blocks['ticks_ms'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField(new Blockly.FieldLabelSerializable("Get milliseconds counter"), "MSG_GET_MS");
+        .appendField(new Blockly.FieldLabelSerializable("Leer contador milisegundos"), "MSG_GET_MS");
     this.setOutput(true, null);
     this.setColour(230);
  this.setTooltip("Get millisecond counter");
@@ -241,13 +241,13 @@ Blockly.Blocks['ticks_ms'] = {
 
 Blockly.Blocks['ticks_diff'] = {
   init: function() {
-   this.appendDummyInput().appendField(new Blockly.FieldLabelSerializable("Compute time difference"), "DIFF_TS");
+   this.appendDummyInput().appendField(new Blockly.FieldLabelSerializable("Calcular diferencia de tiempo"), "DIFF_TS");
     this.setOutput(true, null);
-    this.appendValueInput("end")
+    this.appendValueInput("final")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField("end");
-    this.appendValueInput("start")
+    this.appendValueInput("inicio")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
         .appendField("start");
@@ -493,8 +493,8 @@ Blockly.Blocks['timer'] = {
     this.appendDummyInput()
         .appendField("Timer #")
         .appendField(new Blockly.FieldNumber(2, 0, 9, 1), "timerNumber")
-        .appendField("do")
-        .appendField(new Blockly.FieldDropdown([["every","PERIODIC"], ["once in","ONE_SHOT"]]), "MODE")
+        .appendField("ejecuta")
+        .appendField(new Blockly.FieldDropdown([["cada","PERIODIC"], ["solo una vez dentro de","ONE_SHOT"]]), "MODE")
         .appendField(new Blockly.FieldNumber(1000, 0, Infinity, 1), "interval")
         .appendField("ms");
     this.appendStatementInput("statements")
@@ -512,7 +512,7 @@ Blockly.Blocks['stop_timer'] = {
 
     this.appendValueInput("timerNumber")
         .setCheck("Number")
-        .appendField("Stop Timer");
+        .appendField("Detener timer");
 
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);

@@ -4456,7 +4456,8 @@ Blockly.Python['timer'] = function(block) {
   globals = globals.length ? Blockly.Python.INDENT + 'global ' + globals.join(', ') + '\n' : '';
 
   Blockly.Python.definitions_['import_timer'] = 'from machine import Timer';
-  Blockly.Python.definitions_[`import_timer_start${timerNumber}`] = `tim${timerNumber} = Timer(${timerNumber})`;
+//   Blockly.Python.definitions_[`import_timer_start${timerNumber}`] = `tim${timerNumber} = Timer(${timerNumber})`;
+Blockly.Python.definitions_[`import_timer_start${timerNumber}`] = `tim${timerNumber} = Timer()`;
 
   Blockly.Python.definitions_[`import_timer_callback${timerNumber}`] = `\n#Timer Function Callback\ndef timerFunc${timerNumber}(t):\n${globals}${statements_name}\n\n`;
 
