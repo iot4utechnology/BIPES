@@ -349,9 +349,9 @@ document.body.appendChild(el);
 
   <div id="file_save_as" class="py">
   <input type=text id=content_file_name placeholder="Filename">
-  <button id="editor2DeviceButton" class="button icon text" onclick="Files.files_save_as();">Save</button>
-  <button id="generated2DeviceButton" class="button icon text" onclick="Files.file_save_as.className = 'py';  Files.files_save_as ();">Save a copy</button>
-  <button id="updateXMLButton"  class="button icon text" onclick="Files.editedXML2Workspace();">Push to workspace</button>
+  <button id="editor2DeviceButton" class="button icon text" onclick="Files.files_save_as();">Guardar</button>
+  <button id="generated2DeviceButton" class="button icon text" onclick="Files.file_save_as.className = 'py';  Files.files_save_as ();">Guardar una copia</button>
+  <button id="updateXMLButton"  class="button icon text" onclick="Files.editedXML2Workspace();">Guardar en workspace</button>
   </div>
   <textarea id="content_file_code" wrap="off"></textarea>
 
@@ -385,10 +385,10 @@ document.body.appendChild(el);
 <div class="notify-panel"></div>
 <div class="account-panel">
   <span>
-    <span id="account_header">Hello, <span id="account_user" role="textbox" contenteditable>User</span>!</span>
+    <span id="account_header">Hola, <span id="account_user" role="textbox" contenteditable>Usuario</span>!</span>
     <details open>
     <summary>
-    <h2>Projects</h2>
+    <h2>Proyectos</h2>
     <button value="New Project" id="newProjectButton" class="notext button icon" title="Create new project" onclick="/*UI ['workspace'].newProject();*/" /></button>
     </summary>
     <span id='ProjectList'></span>
@@ -396,7 +396,7 @@ document.body.appendChild(el);
   </span>
   <details open>
   <summary>
-  <h2>Settings</h2>
+  <h2>Configuracion</h2>
   </summary>
   <span class="icon" id="languageIcon">
   <select id="languageMenu"></select>
