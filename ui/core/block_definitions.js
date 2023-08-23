@@ -243,14 +243,14 @@ Blockly.Blocks['ticks_diff'] = {
   init: function() {
    this.appendDummyInput().appendField(new Blockly.FieldLabelSerializable("Calcular diferencia de tiempo"), "DIFF_TS");
     this.setOutput(true, null);
-    this.appendValueInput("final")
+    this.appendValueInput("end")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("end");
-    this.appendValueInput("inicio")
+        .appendField("final");
+    this.appendValueInput("start")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("start");
+        .appendField("inicio");
     //this.setPreviousStatement(true, null);
     //this.setNextStatement(true, null);
     this.setColour(230);
