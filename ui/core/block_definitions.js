@@ -786,7 +786,7 @@ Blockly.Blocks['gpio_get'] = {
 Blockly.Blocks['gpio_interrupt'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField("External event (Interrupt on Input Pin)");
+        .appendField("Evento externo(Interrupcion en pin de entrada)");
     this.appendDummyInput()
         .appendField("Trigger:")
         .appendField(new Blockly.FieldDropdown([["IRQ_FALLING","IRQ_FALLING"], ["IRQ_RISING","IRQ_RISING"], ["IRQ_FALLING and IRQ_RISING","BOTH"]]), "trigger");
@@ -796,7 +796,7 @@ Blockly.Blocks['gpio_interrupt'] = {
         .appendField(MSG["pin"]);
     this.appendStatementInput("code")
         .setCheck(null)
-        .appendField("do");
+        .appendField("hacer");
     this.setColour(230);
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
