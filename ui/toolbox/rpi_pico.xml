@@ -487,10 +487,10 @@
     <block type="reset"></block>
     <block type="machine_unique_id"></block>
     <block type="machine_reset_cause"></block>
-    <block type="reset_cause_soft"></block>
+<!--     <block type="reset_cause_soft"></block>
     <block type="reset_cause_hard"></block>
     <block type="reset_cause_wdt"></block>
-    <block type="reset_cause_deep"></block>
+    <block type="reset_cause_deep"></block> -->
       </category>
       <category name="In/Out Pins">
       <label text="In/Out Pins"></label>
