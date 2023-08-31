@@ -304,7 +304,7 @@
 
   <category name="Python">
       <label text="Python"></label>
-<block type="try_catch"></block>
+<!-- <block type="try_catch"></block>
     <block type="exec_python">
   <value name="command">
         <shadow type="text">
@@ -312,9 +312,9 @@
         </shadow>
       </value>
 
-    </block>
+    </block> -->
 
-    <block type="exec_python_output">
+<!--     <block type="exec_python_output">
       <field name="EXEC_PYTHON_OUTPUT">Execute Python custom with output</field>
   <value name="commnad">
         <shadow type="text">
@@ -322,7 +322,7 @@
         </shadow>
       </value>
 
-    </block>
+    </block> -->
   </category>
 
 
