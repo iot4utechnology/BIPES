@@ -1218,11 +1218,11 @@ Blockly.Blocks['fill_rect_oled'] = {
         this.appendValueInput("x2")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Width");
+        .appendField("Ancho");
     this.appendValueInput("y2")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Height");
+        .appendField("Alto");
 
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
@@ -1241,17 +1241,17 @@ Blockly.Blocks['scroll_oled'] = {
         this.appendValueInput("x")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Scroll back(-) or forth(+)");
+        .appendField("Desplazarse atras (-) o adelante(+)");
     this.appendValueInput("y")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Scroll up (-) or down(+)");
+        .appendField("Desplazarse arriba (-) o abajo(+)");
 
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
     this.setColour(230);
 
- this.setTooltip("Scroll the OLED Display");
+ this.setTooltip("Desplaza la OLED Display");
  this.setHelpUrl("https://www.iot4utechnology.com");
   }
 };
