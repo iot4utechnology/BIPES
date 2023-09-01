@@ -126,7 +126,7 @@
       </block>
       <block type="math_random_float"></block>
       <block type="var_to_int">
-        <field name="VAR">to int</field>
+        <field name="VAR">convertir a valor entero</field>
       </block>
     </category>
     <category name="%{BKY_CATTEXT}" colour="%{BKY_TEXTS_HUE}">
