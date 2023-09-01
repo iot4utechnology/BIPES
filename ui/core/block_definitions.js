@@ -1188,11 +1188,11 @@ Blockly.Blocks['rect_oled'] = {
         this.appendValueInput("x2")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Width");
+        .appendField("Ancho");
     this.appendValueInput("y2")
         .setCheck("Number")
         .setAlign(Blockly.ALIGN_RIGHT)
-        .appendField("Height");
+        .appendField("Alto");
 
     this.setPreviousStatement(true, null);
     this.setNextStatement(true, null);
